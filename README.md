@@ -29,3 +29,16 @@ The tokenizer returns a dictionary with the following keys:
 ![image](https://github.com/user-attachments/assets/d03c481b-6cf2-4c08-b9ec-cf4005c084e3)
 
 
+----------------------------------------------------
+# MLM
+
+The difference between these two following lines lies in their purpose and the objects they initialize. 
+One is for the model (for predictions), and the other is for the tokenizer (for preprocessing the input text).
+### model = AutoModelForMaskedLM.from_pretrained(model_name) 
+### tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+mask_token is a special token added to the tokenizer's vocabulary during pre-training.
+It is typically represented as [MASK] in models like BERT.
+The token is used for Masked Language Modeling (MLM), where certain tokens in a sentence are replaced with [MASK], and the model predicts the masked tokens.
+
+
