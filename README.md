@@ -23,7 +23,7 @@ The tokenizer returns a dictionary with the following keys:
 ---------------------------------------------------
 
 
-#embedding
+# embedding
 ![image](https://github.com/user-attachments/assets/7c4854d5-6e2b-4a49-97dd-0ba9e8ee6540)
 
 ![image](https://github.com/user-attachments/assets/d03c481b-6cf2-4c08-b9ec-cf4005c084e3)
